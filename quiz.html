@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Make your own quiz!</title></head>
+	<body>	
+		<form action="quiz.php" method="POST">
+			<label>Enter the title of your quiz</label><br>
+			<input type="text" name="name" required><br>
+			<label>Choose the type of question</label><br>
+			<select name="type" required>
+			<option value="single" name="single">Single-choice</option>
+			<option value="multiple"name="multiple">Multiple-choice</option>
+			</select><br> 
+			<label>Enter the question</label><br>
+			<input type="text" name="question" required><br>
+			<label>Enter the first option</label><br>
+			<input type="text" name="option1" required><br>
+			<label>Enter the second option</label><br>
+			<input type="text" name="option2" required><br>
+			<label>Enter the third option</label><br>
+			<input type="text" name="option3" required><br>
+			<label>Enter the fourth option</label><br>
+			<input type="text" name="option4" required><br>
+			<label>Enter the correct option</label><br>
+			<input type="text" name="correct" required><br>
+			<input type="submit" value="Add" name="sub">
+			<input type="button" value="Add another question" name="another">
+
+		</form>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head><title>Login to enter our universe!</title></head>
+	<body>	
+		<form action="user.php" method="POST">
+			<label>Enter your username</label><br>
+			<input type="text" name="name" required><br>
+			<label>Enter your password</label><br>
+			<input type="text" name="pass" required><br>
+			<label>Choose your role</label><br>
+			<select name="type" required>
+			<option value="user" name="user">User</option>
+			<option value="admin"name="admin">Admin</option>
+			</select><br> 
+			<br>
+			<input type="submit" value="submit" name="sub">
+		</form>
+	</body>
+</html>
